@@ -18,7 +18,7 @@ section.main-sec {
     background-position: center;
     background-size: cover;
     position: relative;
-    color: white;
+    color: blue;
 }
 .images {
    width: 150px;    
@@ -59,8 +59,8 @@ nav img {
     padding: 20% 6% 15% 6%;
 }
 .text-area h1 {
-    font-size: 60px;
+    font-size: 79px;
 }
 .text-area p {
-    font-size: 25px;
+    font-size: 35px;
 }
