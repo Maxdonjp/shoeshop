@@ -8,7 +8,7 @@
 /* ===================================================================================== */
 
 header {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     position: fixed;
     z-index: 1000;
     width: 100%;
@@ -50,7 +50,7 @@ nav img {
     padding: 10px;
     text-transform: uppercase;
     font-weight: 600;
-    color: white;
+    color: #456;
     background-color: red;
     border-style: none;
     border-radius: 8px;
@@ -80,6 +80,14 @@ section.main-sec {
 
 .text-area p {
     font-size: 25px;
+}
+.dell{
+    border-radius: 220px;
+    width: 400px;
+}
+.goat{
+    border-radius: 29px;
+    width: 600px;
 }
 
 /* ==================================== SLIDER SECTION ================================= */
