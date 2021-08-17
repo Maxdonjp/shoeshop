@@ -183,7 +183,7 @@ ol, li {
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #333;
+    background-color: red;
     background-clip: content-box;
     border: 0.25rem solid transparent;
     border-radius: 50%;
@@ -220,7 +220,7 @@ ol, li {
 .carousel-div::after {
     content: '';
     z-index: 1;
-    background-color: #333;
+    background-color: rgb(248, 38, 38);
     background-size: 1.5rem 1.5rem;
     background-repeat: no-repeat;
     background-position: center center;
