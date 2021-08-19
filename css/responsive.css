@@ -1,0 +1,19 @@
+/* This is for iMac: 4096 x 2304 */
+@media screen and (max-width: 4096px) {
+
+}
+
+/* This is for Macbook: 1366 x 768 */
+@media screen and (max-width: 1366px) {
+
+}
+
+/* This is for iPad: 768px x 1024 */
+@media screen and (max-width: 768px) {
+
+}
+
+/* This is for iPhone X: 375 x 812 */
+@media screen and (max-width: 375px) {
+
+}
