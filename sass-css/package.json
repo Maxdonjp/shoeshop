@@ -1,0 +1,28 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "practicing sass ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/devgemmy/shoeshop.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "stylesheet"
+  ],
+  "author": "Arinze Njoku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devgemmy/shoeshop/issues"
+  },
+  "homepage": "https://github.com/devgemmy/shoeshop#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ==================================== HEADER SECTION ================================= */
+/* ===================================================================================== */
+
+header {
+    width: 80%;
+    padding: 0 10%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 1000;
+    box-shadow: -6px -5px 9px;
+}
+
+.images {
+   width: 150px;    
+}
+
+nav {
+    display: flex;
+    /* padding: 1% 6%; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-item {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-item ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    text-transform: uppercase;
+}
+
+.nav-item ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.shoe-button {
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background-color: red;
+    border-style: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+
+/* ==================================== BANNER SECTION ================================= */
+/* ===================================================================================== */ 
+section.main-sec {
+    /* min-height: 100vh; */
+    width: 80%;
+    padding: 0 10%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.4)), url(../images/display.png);
+    /* background-image: url(images/display.png); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.text-area {
+    padding: 20% 0% 15% 0%;
+}
+
+.text-area h1 {
+    font-size: 60px;
+}
+
+.text-area p {
+    font-size: 25px;
+}
+.dell{
+    border-radius: 220px;
+    width: 400px;
+}
+.goat{
+    border-radius: 29px;
+    width: 600px;
+}
+
+.carousel, .video-sec {
+    width: 80%;
+    margin: 0 auto;
+    padding: 7.5% 1.25rem;
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
