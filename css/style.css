@@ -320,3 +320,20 @@ ol, li {
 .margin-big {
     padding-top: 10%;
 }
+
+/* ==================================== PRODUCTS SECTION =============================== */
+/* ===================================================================================== */
+
+.margin-big main {
+    width: 80%;
+    margin: 20px 10%;
+}
+.shoe-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.shoe-row .show-item img {
+    width: 200px;
+}
