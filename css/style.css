@@ -337,3 +337,16 @@ ol, li {
 .shoe-row .show-item img {
     width: 200px;
 }
+
+.show-item{
+    width: 200px;
+    height: 261px;
+}
+
+.show-background {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
