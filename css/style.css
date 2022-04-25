@@ -339,14 +339,15 @@ ol, li {
 }
 
 .show-item{
-    width: 200px;
-    height: 261px;
+    width: 25%;
+    min-height: 261px;
+    margin-bottom: 30px;
 }
 
 .show-background {
-    width: 150px;
     height: 150px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 25px;
 }
