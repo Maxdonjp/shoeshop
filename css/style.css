@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root {
+    --red: rgba(248, 38, 38, 0.99)
+}
+
 @import url(“animations.css”);
 
 /* ==================================== HEADER SECTION ================================= */
@@ -55,7 +59,7 @@ nav img {
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;
-    background-color: red;
+    background-color: var(--red);
     border-style: none;
     border-radius: 8px;
     margin-top: 20px;
@@ -235,7 +239,7 @@ ol, li {
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    background-color: red;
+    background-color: var(--red);
     background-clip: content-box;
     border: 0.25rem solid transparent;
     border-radius: 50%;
@@ -350,4 +354,7 @@ ol, li {
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 25px;
+}
+.prices {
+    color: var(--red);
 }
