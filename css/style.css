@@ -57,7 +57,7 @@ nav img {
 .shoe-button {
     padding: 10px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 900;
     color: #fff;
     background-color: var(--red);
     border-style: none;
@@ -322,7 +322,7 @@ ol, li {
 }
 
 .margin-big {
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 /* ==================================== PRODUCTS SECTION =============================== */
@@ -355,6 +355,75 @@ ol, li {
     background-position: center;
     margin-right: 25px;
 }
+.show-background:hover{
+    opacity: 0.7;
+}
 .prices {
     color: var(--red);
+}
+
+
+/* ==================================== SLIDING CHECK BUTTON ================================= */
+/* ===================================================================================== */
+
+.switch {
+    margin-left: 40%;
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 75px;
+}
+
+switch:after{
+    content: " ";
+    background-color: white;
+    color: #000;
+    width: 125px;
+    height: 74px;
+
+} 
+
+label {
+    display: inline-block;
+    margin-bottom: 4%;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--red);
+    -webkit-transition: .4s;
+    transition: .4s;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input:checked + .slider {
+    background-color: #17d6e9;
+}
+.slider.round {
+    border-radius: 40px;
+}
+
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin-left: 40px;
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    display: none;
+
 }
