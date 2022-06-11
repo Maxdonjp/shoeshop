@@ -479,3 +479,17 @@ input[type=checkbox], input[type=radio] {
     border-radius: 50%;
     background-color: var(--red);
 }
+.span--orange i { 
+    position: relative;
+    left: 32%;
+    top: 27%;
+    width: 50px;
+    color: #fff;
+}
+.form-sec,.div__contact--float{
+    background-color: #eee;
+}
+
+.div__contact--float{
+    padding:5%
+}
